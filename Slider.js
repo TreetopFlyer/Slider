@@ -27,7 +27,7 @@ Slider.Auto = "calculate direction based on request versus actual indicies";
 
 Slider.Create = function (inSlides)
 {
-    var obj = this;
+    var obj = {};
     obj.timer = false;
 
 	obj.Transition = {};
